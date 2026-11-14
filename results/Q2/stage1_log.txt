@@ -1,0 +1,4 @@
+Set parameter Username
+Set parameter LicenseID to value 2774969
+Academic license - for non-commercial use only - expires 2027-02-04
+STAGE1 SUBOPT(9) slack 8.640 gap 9.96e-01 cost 388.47 t 240 [('C1_B', np.float64(0.32)), ('C2', np.float64(0.79)), ('C2_B', np.float64(1.29)), ('C3', np.float64(1.78)), ('C3_PV', np.float64(0.76)), ('C3_B', np.float64(0.59)), ('C4', np.float64(1.78)), ('C4_PV', np.float64(0.76)), ('C4_B', np.float64(0.59))]

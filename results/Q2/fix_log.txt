@@ -1,0 +1,5 @@
+Set parameter Username
+Set parameter LicenseID to value 2774969
+Academic license - for non-commercial use only - expires 2027-02-04
+FIX BB SUBOPT(9) cost 372.32 slack 0.000 gap 4.15e-04 t 120.0 []
+FIX BBIR_stage1 SUBOPT(9) cost 430.95 slack 48.855 gap 1.70e-01 t 120.0 [('C1', np.float64(2.48)), ('C1_B', np.float64(2.69)), ('C2', np.float64(5.09)), ('C2_PV', np.float64(0.89)), ('C2_B', np.float64(3.27)), ('C3', np.float64(7.08)), ('C3_PV', np.float64(2.89)), ('C3_B', np.float64(3.57)), ('C4', np.float64(9.08)), ('C4_PV', np.float64(4.89)), ('C4_B', np.float64(5.57)), ('C4_PVB', np.float64(1.34))]

@@ -1,0 +1,4 @@
+Set parameter Username
+Set parameter LicenseID to value 2774969
+Academic license - for non-commercial use only - expires 2027-02-04
+STAGE1F3 SUBOPT(9) slack 12.657 gap 9.97e-01 t 200

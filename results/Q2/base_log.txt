@@ -1,0 +1,13 @@
+Set parameter Username
+Set parameter LicenseID to value 2774969
+Academic license - for non-commercial use only - expires 2027-02-04
+DP^cap OPTIMAL 372.16
+DP^BB SUBOPT(9) 372.18
+DP^BB+IR SUBOPT(9) 382.81
+
+[base case]
+                  status        cost  loss_vs_C recovered_vs_I exceedance_kWh    peak_kW shifted_kWh manager_profit ir_slack_total n_worse_than_best worst_member_loss                                                         blockers       gap     solve_s
+DP^cap          OPTIMAL  372.162434        0.0            1.0            0.0       9.39      111.26     166.920599            0.0                13           23.1345  C1,C1_B,C2,C2_PV,C2_B,C3,C3_PV,C3_B,C3_PVB,C4,C4_PV,C4_B,C4_PVB       0.0    1.272357
+DP^BB         SUBOPT(9)  372.184211   0.021776       0.999799            0.0       9.39  114.212797            0.0            0.0                 8         23.146881                                  C1,C1_B,C2,C2_B,C3,C3_B,C4,C4_B  0.000059  120.004967
+DP^BB+IR      SUBOPT(9)  382.809347  10.646912       0.901878       1.369999  10.179999      108.04           -0.0      11.085636                 7            3.4545                                   C1_B,C2,C2_B,C3,C3_PV,C4,C4_PV  0.967549   120.01031
+C (Q1 duals)    OPTIMAL  372.162434        0.0            NaN            0.0       9.39      111.26            NaN            NaN               NaN               NaN                                                              NaN       NaN         NaN

@@ -1,0 +1,33 @@
+Set parameter Username
+Set parameter LicenseID to value 2774969
+Academic license - for non-commercial use only - expires 2027-02-04
+DP^cap OPTIMAL 372.16
+DP^BB SUBOPT(9) 372.18
+DP^BB+IR SUBOPT(9) 382.81
+DP^BB+IR (C loads) SUBOPT(9) 430.95 slack 48.85 gap 0.17
+
+[base case]
+                        status        cost  loss_vs_C recovered_vs_I exceedance_kWh    peak_kW shifted_kWh manager_profit ir_slack_total n_worse_than_best worst_member_loss                                                         blockers       gap     solve_s
+DP^cap                OPTIMAL  372.162434        0.0            1.0            0.0       9.39      111.26     171.240599            0.0                13           23.2545  C1,C1_B,C2,C2_PV,C2_B,C3,C3_PV,C3_B,C3_PVB,C4,C4_PV,C4_B,C4_PVB       0.0    1.183759
+DP^BB               SUBOPT(9)  372.184211   0.021777       0.999799            0.0       9.39  114.212798            0.0            0.0                 8         23.146881                                  C1,C1_B,C2,C2_B,C3,C3_B,C4,C4_B  0.000059  120.006676
+DP^BB+IR            SUBOPT(9)  382.809358  10.646924       0.901878           1.37      10.18      108.04           -0.0      11.085639                 7            3.4545                                   C1_B,C2,C2_B,C3,C3_PV,C4,C4_PV  0.967549  120.007103
+DP^BB+IR (C loads)  SUBOPT(9)  430.952645  58.790211        0.45819       6.011053  12.751053      111.26           -0.0       48.85481                12            9.0795         C1,C1_B,C2,C2_PV,C2_B,C3,C3_PV,C3_B,C4,C4_PV,C4_B,C4_PVB  0.169629  120.013723
+C (Q1 duals)          OPTIMAL  372.162434        0.0            NaN            0.0       9.39      111.26            NaN            NaN               NaN               NaN                                                              NaN       NaN         NaN
+beta=0.25 DP^cap: OPTIMAL cost 419.9 (C 419.9, R 398.2) slack 0.00
+beta=0.25 DP^BB: OPTIMAL cost 419.9 (C 419.9, R 398.2) slack 0.00
+beta=0.25 DP^BB+IR: SUBOPT(9) cost 430.4 (C 419.9, R 398.2) slack 55.54
+beta=0.5 DP^cap: OPTIMAL cost 396.7 (C 396.7, R 398.2) slack 0.00
+beta=0.5 DP^BB: SUBOPT(9) cost 396.8 (C 396.7, R 398.2) slack 0.00
+beta=0.5 DP^BB+IR: SUBOPT(9) cost 407.5 (C 396.7, R 398.2) slack 18.06
+beta=0.6 DP^cap: OPTIMAL cost 387.0 (C 387.0, R 398.2) slack 0.00
+beta=0.6 DP^BB: SUBOPT(9) cost 387.1 (C 387.0, R 398.2) slack 0.00
+beta=0.6 DP^BB+IR: SUBOPT(9) cost 397.6 (C 387.0, R 398.2) slack 15.04
+beta=0.75 DP^cap: OPTIMAL cost 372.2 (C 372.2, R 398.2) slack 0.00
+beta=0.75 DP^BB: SUBOPT(9) cost 372.2 (C 372.2, R 398.2) slack 0.00
+beta=0.75 DP^BB+IR: SUBOPT(9) cost 382.7 (C 372.2, R 398.2) slack 12.66
+beta=0.9 DP^cap: OPTIMAL cost 357.3 (C 357.3, R 398.2) slack 0.00
+beta=0.9 DP^BB: OPTIMAL cost 357.3 (C 357.3, R 398.2) slack 0.00
+beta=0.9 DP^BB+IR: SUBOPT(9) cost 367.6 (C 357.3, R 398.2) slack 10.17
+beta=1.0 DP^cap: OPTIMAL cost 347.3 (C 347.3, R 398.2) slack 0.00
+beta=1.0 DP^BB: OPTIMAL cost 347.3 (C 347.3, R 398.2) slack 0.00
+beta=1.0 DP^BB+IR: SUBOPT(9) cost 373.0 (C 347.3, R 398.2) slack 4.57
